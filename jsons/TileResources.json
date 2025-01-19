@@ -1,0 +1,20 @@
+[
+  {
+		"name": "Power",
+		"resourceType": "Strategic",
+		"revealedBy": "Industrialization",
+		"uniques": [],
+	},
+    {
+		"name": "Biofuel",
+		"resourceType": "Strategic",
+		"revealedBy": "Industrialization",
+		"uniques": [],
+	},
+    {
+		"name": "Pollution",
+		"resourceType": "Strategic",
+		"revealedBy": "Industrialization",
+		"uniques": [],
+	},
+]
