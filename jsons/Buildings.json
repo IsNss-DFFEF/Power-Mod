@@ -1,0 +1,65 @@
+[
+  	{
+		"name": "Solar Plant",
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Desert]", "Provides [4] [Power]"]
+    },
+    {
+		"name": "Wind Turbine",
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Provides [4] [Power]"]
+    },
+    {
+		"name": "Tidal Plant",
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Coast]","Provides [4] [Power]"]
+    },
+  	{
+		"name": "Nuclear Plant",
+		"production": 4,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Provides [16] [Power]"]
+	},
+  {
+  		"name": "Hydroelectric Dam",
+		"production": 4,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Hydro Plant",
+		"maintenance": 3,
+		"requiredResource": "Aluminum",
+		"requiredTech": "Electronics",
+		"uniques": ["Provides [16] [Power]"]
+	},
+    	{
+		"name": "Fusion Plant",
+		"production": 8,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Nuclear Plant",
+		"maintenance": 6,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Provides [24] [Power]"]
+	},
+      {
+        "name": "Dyson Sphere",
+        "isWonder": true,
+        "uniques": [],
+        "requiredTech": "Future Tech",
+        "quote": "tbd tbd"
+    }
+]
