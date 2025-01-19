@@ -1,4 +1,5 @@
 [
+	//Renewable
   	{
 		"name": "Solar Plant",
 		"production": 2,
@@ -58,7 +59,10 @@
       {
         "name": "Dyson Sphere",
         "isWonder": true,
-        "uniques": [],
+        "uniques": ["[+5 Culture, +5 Gold, +5 Production] [in all cities] <for [All] Civilizations>",
+		"[+50]% [Production] <for [All] Civilizations>","[+25]% [Happiness] <for [All] Civilizations>",
+		"[+1 Happiness] every [6] population [in all cities] <for [All] Civilizations>",
+	"Provides [1600] [Power] <for [All] Civilizations>"],
         "requiredTech": "Future Tech",
         "quote": "tbd tbd"
     }
